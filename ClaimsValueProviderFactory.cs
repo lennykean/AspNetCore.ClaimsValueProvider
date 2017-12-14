@@ -1,12 +1,11 @@
 ﻿using System;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc.Internal;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 
 namespace AspNetCore.ClaimsValueProvider
 {
     /// <summary>
-    /// A <see cref="IValueProviderFactory"/> that creates <see cref="IValueProvider"/> instances that read values from claims
+    /// A <see cref="IValueProviderFactory"/> that creates <see cref="IValueProvider"/> instances that read values from claims.
     /// </summary>
     public class ClaimsValueProviderFactory : IValueProviderFactory
     {
@@ -19,7 +18,7 @@ namespace AspNetCore.ClaimsValueProvider
             }
             context.ValueProviders.Add(new ClaimsValueProvider(ClaimsBindingSource.BindingSource, context.ActionContext.HttpContext.User));
 
-            return TaskCache.CompletedTask;
+            return Task.CompletedTask;
         }
     }
 }

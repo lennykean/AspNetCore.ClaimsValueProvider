@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+    
+  <PropertyGroup>
+    <Description>Value provider for claims.</Description>
+    <AssemblyTitle>AspNetCore.ClaimsValueProvider</AssemblyTitle>
+    <Authors>Lenny Kean,Matt Hamilton</Authors>
+    <AssemblyName>AspNetCore.ClaimsValueProvider</AssemblyName>
+    <PackageId>AspNetCore.ClaimsValueProvider</PackageId>
+    <PackageProjectUrl>https://github.com/mthamil/AspNetCore.ClaimsValueProvider</PackageProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.0.0" />
+  </ItemGroup>
+
+</Project>

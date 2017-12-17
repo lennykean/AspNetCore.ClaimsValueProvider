@@ -58,8 +58,8 @@ nuget:
 #---------------------------------#
 
 artifacts:
-  - path: '**\$(APPVEYOR_PROJECT_NAME).$(APPVEYOR_BUILD_VERSION).nupkg'
-  - path: '**\$(APPVEYOR_PROJECT_NAME).$(APPVEYOR_BUILD_VERSION).symbols.nupkg'
+  - path: '**\$(APPVEYOR_PROJECT_NAME).Fork.$(APPVEYOR_BUILD_VERSION).nupkg'
+  - path: '**\$(APPVEYOR_PROJECT_NAME).Fork.$(APPVEYOR_BUILD_VERSION).symbols.nupkg'
 
 
 #---------------------------------#

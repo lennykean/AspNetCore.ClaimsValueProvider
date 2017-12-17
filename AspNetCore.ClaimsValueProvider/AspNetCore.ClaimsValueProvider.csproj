@@ -5,12 +5,15 @@
   </PropertyGroup>
     
   <PropertyGroup>
-    <Description>Value provider for claims.</Description>
-    <AssemblyTitle>AspNetCore.ClaimsValueProvider</AssemblyTitle>
-    <Authors>Lenny Kean,Matt Hamilton</Authors>
-    <AssemblyName>AspNetCore.ClaimsValueProvider</AssemblyName>
     <PackageId>AspNetCore.ClaimsValueProvider</PackageId>
     <PackageProjectUrl>https://github.com/mthamil/AspNetCore.ClaimsValueProvider</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/mthamil/AspNetCore.ClaimsValueProvider</RepositoryUrl>
+    <Product>AspNetCore.ClaimsValueProvider</Product>
+    <Description>Value provider for claims.</Description>
+    <Authors>Lenny Kean,Matt Hamilton</Authors>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <IncludeSymbols>True</IncludeSymbols>
   </PropertyGroup>
 
   <ItemGroup>

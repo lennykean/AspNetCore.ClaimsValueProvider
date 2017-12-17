@@ -60,6 +60,7 @@ nuget:
 artifacts:
   - path: '**\$(APPVEYOR_PROJECT_NAME).$(APPVEYOR_BUILD_VERSION).nupkg'
   - path: '**\$(APPVEYOR_PROJECT_NAME).$(APPVEYOR_BUILD_VERSION).symbols.nupkg'
+  - name: 'packages'
 
 
 #---------------------------------#
@@ -76,4 +77,4 @@ deploy:
       secure: MD0elo1aBPjhlWEc8wb7obFowwHimaZ+I1fEscOXpTckpHLZFmi4MOHrgyRteF/2
     skip_symbols: false
     symbol_server: # SymbolSource.org
-    artifact: '$(APPVEYOR_PROJECT_NAME).$(APPVEYOR_BUILD_VERSION).nupkg'
+    artifact: 'packages'

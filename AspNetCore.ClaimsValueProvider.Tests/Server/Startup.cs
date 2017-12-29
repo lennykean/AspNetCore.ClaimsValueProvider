@@ -8,18 +8,20 @@ namespace AspNetCore.ClaimsValueProvider.Tests.Server
     {
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvcCore(options => options.ValueProviderFactories.Add(new ClaimsValueProviderFactory()))
+            services.AddMvcCore(options => options.AddClaimsValueProvider())
                     .AddAuthorization()
                     .AddFormatterMappings()
                     .AddDataAnnotations()
                     .AddJsonFormatters()
                     .AddDataAnnotations();
 
-            services.AddAuthentication(options => {
-                        options.DefaultAuthenticateScheme = "TestAuth";
-                        options.DefaultChallengeScheme = "TestAuth";
-                    })
-                    .AddScheme<AuthenticationSchemeOptions, AuthHandler>("TestAuth", "TestAuth", options => {
+            services.AddAuthentication(options =>
+            {
+                options.DefaultAuthenticateScheme = "TestAuth";
+                options.DefaultChallengeScheme = "TestAuth";
+            })
+                    .AddScheme<AuthenticationSchemeOptions, AuthHandler>("TestAuth", "TestAuth", options =>
+                    {
                         options.ClaimsIssuer = "TestAuth";
                     });
         }

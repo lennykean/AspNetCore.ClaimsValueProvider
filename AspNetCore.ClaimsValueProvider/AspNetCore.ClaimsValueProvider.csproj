@@ -3,11 +3,11 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
-    
+
   <PropertyGroup>
     <PackageId>AspNetCore.ClaimsValueProvider</PackageId>
-    <PackageProjectUrl>https://github.com/mthamil/AspNetCore.ClaimsValueProvider</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/mthamil/AspNetCore.ClaimsValueProvider</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/lennykean/AspNetCore.ClaimsValueProvider</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/lennykean/AspNetCore.ClaimsValueProvider</RepositoryUrl>
     <Product>AspNetCore.ClaimsValueProvider</Product>
     <Description>Value provider for claims.</Description>
     <Authors>Lenny Kean,Matt Hamilton</Authors>

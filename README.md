@@ -7,10 +7,15 @@ The claims value provider allows binding a controller parameter to a claim that 
 
 ## Usage
 
-#### .csproj
+#### Installation
 
-```xml
-<PackageReference Include="AspNetCore.ClaimsValueProvider" Version="2.*" />
+##### .NET CLI
+```shell
+> dotnet add package AspNetCore.ClaimsValueProvider
+```
+##### Package Manager
+```shell
+PM> Install-Package AspNetCore.ClaimsValueProvider
 ```
 
 #### Startup.cs

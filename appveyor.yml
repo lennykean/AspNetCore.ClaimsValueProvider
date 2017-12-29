@@ -10,7 +10,7 @@
 # Operating system (build VM template)
 os: Visual Studio 2017
 
-environment:  
+environment:
   major: 2
   minor: 0
   patch: 0
@@ -73,7 +73,7 @@ deploy:
       appveyor_repo_tag: true
     server: # nuget.org
     api_key:
-      secure: MD0elo1aBPjhlWEc8wb7obFowwHimaZ+I1fEscOXpTckpHLZFmi4MOHrgyRteF/2
+      secure: RI4pfW9mqHOUqddpjvGf1/bnLvgaMaDDwshETx0eM4V1a5ieWsFK6vCOUqsDa8sJ
     skip_symbols: false
     symbol_server: # SymbolSource.org
     artifact: '$(APPVEYOR_PROJECT_NAME).$(APPVEYOR_BUILD_VERSION).nupkg'

@@ -75,5 +75,4 @@ deploy:
     api_key:
       secure: RI4pfW9mqHOUqddpjvGf1/bnLvgaMaDDwshETx0eM4V1a5ieWsFK6vCOUqsDa8sJ
     skip_symbols: false
-    symbol_server: # SymbolSource.org
-    artifact: '**\$(APPVEYOR_PROJECT_NAME).$(APPVEYOR_BUILD_VERSION).nupkg'
+    artifact: /.*\.nupkg/

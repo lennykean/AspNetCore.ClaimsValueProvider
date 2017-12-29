@@ -2,8 +2,7 @@
 
 The claims value provider allows binding a controller parameter to a claim that is associated with the current user, such a user ID, name, or email
 
-[![Build status](https://ci.appveyor.com/api/projects/status/52bg8e5bfswfqbor?svg=true
-)](https://ci.appveyor.com/project/lennykean/aspnetcore-claimsvalueprovider)
+[![Build status](https://ci.appveyor.com/api/projects/status/ahwbbd5ewbjpxddg?svg=true)](https://ci.appveyor.com/project/lennykean/aspnetcore-claimsvalueprovider)
 [![NuGet](https://img.shields.io/nuget/v/AspNetCore.ClaimsValueProvider.svg)](https://www.nuget.org/packages/AspNetCore.ClaimsValueProvider/)
 
 ## Usage

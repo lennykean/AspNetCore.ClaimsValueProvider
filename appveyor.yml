@@ -73,6 +73,6 @@ deploy:
       appveyor_repo_tag: true
     server: # nuget.org
     api_key:
-      secure: RI4pfW9mqHOUqddpjvGf1/bnLvgaMaDDwshETx0eM4V1a5ieWsFK6vCOUqsDa8sJ
+      secure: vW0H6tVZ3ZvLVp9o86mW8LuQG9Me6gnsyzkM8MkJXDUu8TsMHK1dQ/tIBk2XCj25
     skip_symbols: false
     artifact: /.*\.nupkg/

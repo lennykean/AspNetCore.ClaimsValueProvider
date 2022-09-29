@@ -6,7 +6,7 @@ namespace AspNetCore.ClaimsValueProvider
     /// <summary>
     /// Specifies that a parameter or property should be bound using a claim.
     /// </summary>
-    [AttributeUsage(AttributeTargets.Parameter)]
+    [AttributeUsage(AttributeTargets.Parameter | AttributeTargets.Property)]
     public class FromClaimAttribute : Attribute, IBindingSourceMetadata, IModelNameProvider
     {
         /// <param name="claimType">Claim type</param>
